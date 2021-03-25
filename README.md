@@ -1,6 +1,7 @@
 # SETUP
   
 * First of all , you need to clone this repository in your local.
+* pip install sqlite3
 * You can use this script with sqlite query or you can take all data from db.
 * connect("Your db") or connect("yourDb","Select * from xxxx")
 
