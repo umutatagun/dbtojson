@@ -52,7 +52,7 @@ def connect_comp(path,query):
             dumylist = {table_name["name"] : i}
             liste.append(dumylist)
     
-    with open("deneme.json",'w') as newfile:
+    with open(table_name["name"]+".json",'w') as newfile:
         newfile.write("[\n")
         for i in liste:
             newfile.write(str(i))
